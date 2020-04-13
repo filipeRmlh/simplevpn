@@ -1,0 +1,1508 @@
+2020-04-13 01:34:25	WARN:   Could not load config file "/home/filipe/CLionProjects/vpn/cmake-build-debug/config/sta" (No such file or directory).
+
+2020-04-13 01:34:25	ERROR:  Specify a valid host:port couple.
+
+2020-04-13 01:35:32	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:32	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:32	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:32	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:32	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:32	ERROR:      subject:
+
+2020-04-13 01:35:32	ERROR:          C=US
+
+2020-04-13 01:35:32	ERROR:          ST=California
+
+2020-04-13 01:35:32	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:32	ERROR:          O=Fortinet
+
+2020-04-13 01:35:32	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:32	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:32	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:32	ERROR:      issuer:
+
+2020-04-13 01:35:32	ERROR:          C=US
+
+2020-04-13 01:35:32	ERROR:          ST=California
+
+2020-04-13 01:35:32	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:32	ERROR:          O=Fortinet
+
+2020-04-13 01:35:32	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:32	ERROR:          CN=support
+
+2020-04-13 01:35:32	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:32	ERROR:      sha256 digest:
+
+2020-04-13 01:35:32	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:32	INFO:   Closed connection to gateway.
+
+2020-04-13 01:35:32	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:32	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:32	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:32	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:32	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:32	ERROR:      subject:
+
+2020-04-13 01:35:32	ERROR:          C=US
+
+2020-04-13 01:35:32	ERROR:          ST=California
+
+2020-04-13 01:35:32	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:32	ERROR:          O=Fortinet
+
+2020-04-13 01:35:32	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:32	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:32	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:32	ERROR:      issuer:
+
+2020-04-13 01:35:32	ERROR:          C=US
+
+2020-04-13 01:35:32	ERROR:          ST=California
+
+2020-04-13 01:35:32	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:32	ERROR:          O=Fortinet
+
+2020-04-13 01:35:32	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:32	ERROR:          CN=support
+
+2020-04-13 01:35:32	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:32	ERROR:      sha256 digest:
+
+2020-04-13 01:35:32	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:32	INFO:   Could not log out.
+
+2020-04-13 01:35:38	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:39	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:39	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:39	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:39	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:39	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:39	ERROR:      subject:
+
+2020-04-13 01:35:39	ERROR:          C=US
+
+2020-04-13 01:35:39	ERROR:          ST=California
+
+2020-04-13 01:35:39	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:39	ERROR:          O=Fortinet
+
+2020-04-13 01:35:39	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:39	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:39	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:39	ERROR:      issuer:
+
+2020-04-13 01:35:39	ERROR:          C=US
+
+2020-04-13 01:35:39	ERROR:          ST=California
+
+2020-04-13 01:35:39	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:39	ERROR:          O=Fortinet
+
+2020-04-13 01:35:39	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:39	ERROR:          CN=support
+
+2020-04-13 01:35:39	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:39	ERROR:      sha256 digest:
+
+2020-04-13 01:35:39	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:39	INFO:   Closed connection to gateway.
+
+2020-04-13 01:35:39	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:39	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:39	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:39	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:39	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:39	ERROR:      subject:
+
+2020-04-13 01:35:39	ERROR:          C=US
+
+2020-04-13 01:35:39	ERROR:          ST=California
+
+2020-04-13 01:35:39	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:39	ERROR:          O=Fortinet
+
+2020-04-13 01:35:39	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:39	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:39	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:39	ERROR:      issuer:
+
+2020-04-13 01:35:39	ERROR:          C=US
+
+2020-04-13 01:35:39	ERROR:          ST=California
+
+2020-04-13 01:35:39	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:39	ERROR:          O=Fortinet
+
+2020-04-13 01:35:39	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:39	ERROR:          CN=support
+
+2020-04-13 01:35:39	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:39	ERROR:      sha256 digest:
+
+2020-04-13 01:35:39	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:39	INFO:   Could not log out.
+
+2020-04-13 01:35:44	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:44	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:44	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:44	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:44	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:44	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:44	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:44	ERROR:      subject:
+
+2020-04-13 01:35:44	ERROR:          C=US
+
+2020-04-13 01:35:44	ERROR:          ST=California
+
+2020-04-13 01:35:44	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:44	ERROR:          O=Fortinet
+
+2020-04-13 01:35:44	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:44	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:44	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:44	ERROR:      issuer:
+
+2020-04-13 01:35:44	ERROR:          C=US
+
+2020-04-13 01:35:44	ERROR:          ST=California
+
+2020-04-13 01:35:44	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:44	ERROR:          O=Fortinet
+
+2020-04-13 01:35:44	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:44	ERROR:          CN=support
+
+2020-04-13 01:35:44	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:44	ERROR:      sha256 digest:
+
+2020-04-13 01:35:44	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:44	INFO:   Closed connection to gateway.
+
+2020-04-13 01:35:44	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:44	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:44	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:44	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:44	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:44	ERROR:      subject:
+
+2020-04-13 01:35:44	ERROR:          C=US
+
+2020-04-13 01:35:44	ERROR:          ST=California
+
+2020-04-13 01:35:44	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:44	ERROR:          O=Fortinet
+
+2020-04-13 01:35:44	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:44	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:44	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:44	ERROR:      issuer:
+
+2020-04-13 01:35:44	ERROR:          C=US
+
+2020-04-13 01:35:44	ERROR:          ST=California
+
+2020-04-13 01:35:44	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:44	ERROR:          O=Fortinet
+
+2020-04-13 01:35:44	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:44	ERROR:          CN=support
+
+2020-04-13 01:35:44	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:44	ERROR:      sha256 digest:
+
+2020-04-13 01:35:44	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:44	INFO:   Could not log out.
+
+2020-04-13 01:35:47	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:47	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:47	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:47	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:47	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:47	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:47	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:47	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:47	ERROR:      subject:
+
+2020-04-13 01:35:47	ERROR:          C=US
+
+2020-04-13 01:35:47	ERROR:          ST=California
+
+2020-04-13 01:35:47	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:47	ERROR:          O=Fortinet
+
+2020-04-13 01:35:47	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:47	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:47	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:47	ERROR:      issuer:
+
+2020-04-13 01:35:47	ERROR:          C=US
+
+2020-04-13 01:35:47	ERROR:          ST=California
+
+2020-04-13 01:35:47	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:47	ERROR:          O=Fortinet
+
+2020-04-13 01:35:47	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:47	ERROR:          CN=support
+
+2020-04-13 01:35:47	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:47	ERROR:      sha256 digest:
+
+2020-04-13 01:35:47	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:47	INFO:   Closed connection to gateway.
+
+2020-04-13 01:35:47	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:47	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:47	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:47	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:47	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:47	ERROR:      subject:
+
+2020-04-13 01:35:47	ERROR:          C=US
+
+2020-04-13 01:35:47	ERROR:          ST=California
+
+2020-04-13 01:35:47	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:47	ERROR:          O=Fortinet
+
+2020-04-13 01:35:47	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:47	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:47	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:47	ERROR:      issuer:
+
+2020-04-13 01:35:47	ERROR:          C=US
+
+2020-04-13 01:35:47	ERROR:          ST=California
+
+2020-04-13 01:35:47	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:47	ERROR:          O=Fortinet
+
+2020-04-13 01:35:47	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:47	ERROR:          CN=support
+
+2020-04-13 01:35:47	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:47	ERROR:      sha256 digest:
+
+2020-04-13 01:35:47	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:47	INFO:   Could not log out.
+
+2020-04-13 01:35:50	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:50	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:50	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:50	WARN:   Bad certificate sha256 digest in config file: "|0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d".
+
+2020-04-13 01:35:50	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:50	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:50	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:50	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:50	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:50	ERROR:      subject:
+
+2020-04-13 01:35:50	ERROR:          C=US
+
+2020-04-13 01:35:50	ERROR:          ST=California
+
+2020-04-13 01:35:50	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:50	ERROR:          O=Fortinet
+
+2020-04-13 01:35:50	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:50	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:50	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:50	ERROR:      issuer:
+
+2020-04-13 01:35:50	ERROR:          C=US
+
+2020-04-13 01:35:50	ERROR:          ST=California
+
+2020-04-13 01:35:50	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:50	ERROR:          O=Fortinet
+
+2020-04-13 01:35:50	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:50	ERROR:          CN=support
+
+2020-04-13 01:35:50	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:50	ERROR:      sha256 digest:
+
+2020-04-13 01:35:50	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:50	INFO:   Closed connection to gateway.
+
+2020-04-13 01:35:50	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:35:50	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:50	ERROR:  or add this line to your config file:
+
+2020-04-13 01:35:50	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:50	ERROR:  Gateway certificate:
+
+2020-04-13 01:35:50	ERROR:      subject:
+
+2020-04-13 01:35:50	ERROR:          C=US
+
+2020-04-13 01:35:50	ERROR:          ST=California
+
+2020-04-13 01:35:50	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:50	ERROR:          O=Fortinet
+
+2020-04-13 01:35:50	ERROR:          OU=FortiGate
+
+2020-04-13 01:35:50	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:35:50	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:50	ERROR:      issuer:
+
+2020-04-13 01:35:50	ERROR:          C=US
+
+2020-04-13 01:35:50	ERROR:          ST=California
+
+2020-04-13 01:35:50	ERROR:          L=Sunnyvale
+
+2020-04-13 01:35:50	ERROR:          O=Fortinet
+
+2020-04-13 01:35:50	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:35:50	ERROR:          CN=support
+
+2020-04-13 01:35:50	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:35:50	ERROR:      sha256 digest:
+
+2020-04-13 01:35:50	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:35:50	INFO:   Could not log out.
+
+2020-04-13 01:37:20	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:37:20	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:37:20	ERROR:  or add this line to your config file:
+
+2020-04-13 01:37:20	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:37:20	ERROR:  Gateway certificate:
+
+2020-04-13 01:37:20	ERROR:      subject:
+
+2020-04-13 01:37:20	ERROR:          C=US
+
+2020-04-13 01:37:20	ERROR:          ST=California
+
+2020-04-13 01:37:20	ERROR:          L=Sunnyvale
+
+2020-04-13 01:37:20	ERROR:          O=Fortinet
+
+2020-04-13 01:37:20	ERROR:          OU=FortiGate
+
+2020-04-13 01:37:20	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:37:20	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:37:20	ERROR:      issuer:
+
+2020-04-13 01:37:20	ERROR:          C=US
+
+2020-04-13 01:37:20	ERROR:          ST=California
+
+2020-04-13 01:37:20	ERROR:          L=Sunnyvale
+
+2020-04-13 01:37:20	ERROR:          O=Fortinet
+
+2020-04-13 01:37:20	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:37:20	ERROR:          CN=support
+
+2020-04-13 01:37:20	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:37:20	ERROR:      sha256 digest:
+
+2020-04-13 01:37:20	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:37:20	INFO:   Closed connection to gateway.
+
+2020-04-13 01:37:20	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:37:20	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:37:20	ERROR:  or add this line to your config file:
+
+2020-04-13 01:37:20	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:37:20	ERROR:  Gateway certificate:
+
+2020-04-13 01:37:20	ERROR:      subject:
+
+2020-04-13 01:37:20	ERROR:          C=US
+
+2020-04-13 01:37:20	ERROR:          ST=California
+
+2020-04-13 01:37:20	ERROR:          L=Sunnyvale
+
+2020-04-13 01:37:20	ERROR:          O=Fortinet
+
+2020-04-13 01:37:20	ERROR:          OU=FortiGate
+
+2020-04-13 01:37:20	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:37:20	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:37:20	ERROR:      issuer:
+
+2020-04-13 01:37:20	ERROR:          C=US
+
+2020-04-13 01:37:20	ERROR:          ST=California
+
+2020-04-13 01:37:20	ERROR:          L=Sunnyvale
+
+2020-04-13 01:37:20	ERROR:          O=Fortinet
+
+2020-04-13 01:37:20	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:37:20	ERROR:          CN=support
+
+2020-04-13 01:37:20	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:37:20	ERROR:      sha256 digest:
+
+2020-04-13 01:37:20	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:37:20	INFO:   Could not log out.
+
+2020-04-13 01:38:15	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:38:15	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:38:15	ERROR:  or add this line to your config file:
+
+2020-04-13 01:38:15	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:38:15	ERROR:  Gateway certificate:
+
+2020-04-13 01:38:15	ERROR:      subject:
+
+2020-04-13 01:38:15	ERROR:          C=US
+
+2020-04-13 01:38:15	ERROR:          ST=California
+
+2020-04-13 01:38:15	ERROR:          L=Sunnyvale
+
+2020-04-13 01:38:15	ERROR:          O=Fortinet
+
+2020-04-13 01:38:15	ERROR:          OU=FortiGate
+
+2020-04-13 01:38:15	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:38:15	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:38:15	ERROR:      issuer:
+
+2020-04-13 01:38:15	ERROR:          C=US
+
+2020-04-13 01:38:15	ERROR:          ST=California
+
+2020-04-13 01:38:15	ERROR:          L=Sunnyvale
+
+2020-04-13 01:38:15	ERROR:          O=Fortinet
+
+2020-04-13 01:38:15	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:38:15	ERROR:          CN=support
+
+2020-04-13 01:38:15	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:38:15	ERROR:      sha256 digest:
+
+2020-04-13 01:38:15	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:38:15	INFO:   Closed connection to gateway.
+
+2020-04-13 01:38:15	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:38:15	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:38:15	ERROR:  or add this line to your config file:
+
+2020-04-13 01:38:15	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:38:15	ERROR:  Gateway certificate:
+
+2020-04-13 01:38:15	ERROR:      subject:
+
+2020-04-13 01:38:15	ERROR:          C=US
+
+2020-04-13 01:38:15	ERROR:          ST=California
+
+2020-04-13 01:38:15	ERROR:          L=Sunnyvale
+
+2020-04-13 01:38:15	ERROR:          O=Fortinet
+
+2020-04-13 01:38:15	ERROR:          OU=FortiGate
+
+2020-04-13 01:38:15	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:38:15	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:38:15	ERROR:      issuer:
+
+2020-04-13 01:38:15	ERROR:          C=US
+
+2020-04-13 01:38:15	ERROR:          ST=California
+
+2020-04-13 01:38:15	ERROR:          L=Sunnyvale
+
+2020-04-13 01:38:15	ERROR:          O=Fortinet
+
+2020-04-13 01:38:15	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:38:15	ERROR:          CN=support
+
+2020-04-13 01:38:15	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:38:15	ERROR:      sha256 digest:
+
+2020-04-13 01:38:15	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:38:15	INFO:   Could not log out.
+
+2020-04-13 01:39:08	INFO:   Connected to gateway.
+
+2020-04-13 01:39:08	INFO:   Authenticated.
+
+2020-04-13 01:39:08	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 01:39:08	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 01:39:08	INFO:   negotiation complete
+
+2020-04-13 01:39:11	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 01:39:11	INFO:   negotiation complete
+
+2020-04-13 01:39:13	INFO:   negotiation complete
+
+2020-04-13 01:39:13	INFO:   Interface ppp0 is UP.
+
+2020-04-13 01:39:13	INFO:   Setting new routes...
+
+2020-04-13 01:39:13	INFO:   Adding VPN nameservers...
+
+2020-04-13 01:39:13	INFO:   Tunnel is up and running.
+
+2020-04-13 01:41:33	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:41:33	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:41:33	ERROR:  or add this line to your config file:
+
+2020-04-13 01:41:33	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:41:33	ERROR:  Gateway certificate:
+
+2020-04-13 01:41:33	ERROR:      subject:
+
+2020-04-13 01:41:33	ERROR:          C=US
+
+2020-04-13 01:41:33	ERROR:          ST=California
+
+2020-04-13 01:41:33	ERROR:          L=Sunnyvale
+
+2020-04-13 01:41:33	ERROR:          O=Fortinet
+
+2020-04-13 01:41:33	ERROR:          OU=FortiGate
+
+2020-04-13 01:41:33	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:41:33	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:41:33	ERROR:      issuer:
+
+2020-04-13 01:41:33	ERROR:          C=US
+
+2020-04-13 01:41:33	ERROR:          ST=California
+
+2020-04-13 01:41:33	ERROR:          L=Sunnyvale
+
+2020-04-13 01:41:33	ERROR:          O=Fortinet
+
+2020-04-13 01:41:33	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:41:33	ERROR:          CN=support
+
+2020-04-13 01:41:33	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:41:33	ERROR:      sha256 digest:
+
+2020-04-13 01:41:33	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:41:33	INFO:   Closed connection to gateway.
+
+2020-04-13 01:41:33	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 01:41:33	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:41:33	ERROR:  or add this line to your config file:
+
+2020-04-13 01:41:33	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:41:33	ERROR:  Gateway certificate:
+
+2020-04-13 01:41:33	ERROR:      subject:
+
+2020-04-13 01:41:33	ERROR:          C=US
+
+2020-04-13 01:41:33	ERROR:          ST=California
+
+2020-04-13 01:41:33	ERROR:          L=Sunnyvale
+
+2020-04-13 01:41:33	ERROR:          O=Fortinet
+
+2020-04-13 01:41:33	ERROR:          OU=FortiGate
+
+2020-04-13 01:41:33	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 01:41:33	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:41:33	ERROR:      issuer:
+
+2020-04-13 01:41:33	ERROR:          C=US
+
+2020-04-13 01:41:33	ERROR:          ST=California
+
+2020-04-13 01:41:33	ERROR:          L=Sunnyvale
+
+2020-04-13 01:41:33	ERROR:          O=Fortinet
+
+2020-04-13 01:41:33	ERROR:          OU=Certificate Authority
+
+2020-04-13 01:41:33	ERROR:          CN=support
+
+2020-04-13 01:41:33	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 01:41:33	ERROR:      sha256 digest:
+
+2020-04-13 01:41:33	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 01:41:33	INFO:   Could not log out.
+
+2020-04-13 01:41:38	INFO:   Connected to gateway.
+
+2020-04-13 01:41:38	INFO:   Authenticated.
+
+2020-04-13 01:41:38	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 01:41:38	INFO:   Got addresses: [10.212.134.119], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 01:41:38	INFO:   negotiation complete
+
+2020-04-13 01:41:43	INFO:   Got addresses: [10.212.134.119], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 01:41:43	INFO:   negotiation complete
+
+2020-04-13 01:45:55	INFO:   Connected to gateway.
+
+2020-04-13 01:45:55	INFO:   Authenticated.
+
+2020-04-13 01:45:55	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 01:45:56	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 01:45:56	INFO:   negotiation complete
+
+2020-04-13 01:45:59	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 01:45:59	INFO:   negotiation complete
+
+2020-04-13 01:46:01	INFO:   negotiation complete
+
+2020-04-13 01:46:01	INFO:   Interface ppp0 is UP.
+
+2020-04-13 01:46:01	INFO:   Setting new routes...
+
+2020-04-13 01:46:01	INFO:   Adding VPN nameservers...
+
+2020-04-13 01:46:01	INFO:   Tunnel is up and running.
+
+2020-04-13 02:04:49	INFO:   Connected to gateway.
+
+2020-04-13 02:04:49	INFO:   Authenticated.
+
+2020-04-13 02:04:49	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:04:49	INFO:   Got addresses: [10.212.134.119], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:04:49	INFO:   negotiation complete
+
+2020-04-13 02:04:52	INFO:   Got addresses: [10.212.134.119], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:04:52	INFO:   negotiation complete
+
+2020-04-13 02:04:52	INFO:   negotiation complete
+
+2020-04-13 02:04:53	INFO:   Interface ppp1 is UP.
+
+2020-04-13 02:04:53	INFO:   Setting new routes...
+
+2020-04-13 02:04:53	WARN:   Route to vpn server exists already.
+
+2020-04-13 02:04:53	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:04:53	INFO:   Tunnel is up and running.
+
+2020-04-13 02:07:24	INFO:   Cancelling threads...
+
+2020-04-13 02:07:24	INFO:   Cancelling threads...
+
+2020-04-13 02:07:24	INFO:   Setting ppp interface down.
+
+2020-04-13 02:07:24	INFO:   Restoring routes...
+
+2020-04-13 02:07:24	INFO:   Removing VPN nameservers...
+
+2020-04-13 02:07:24	INFO:   Setting ppp interface down.
+
+2020-04-13 02:07:24	INFO:   Restoring routes...
+
+2020-04-13 02:07:24	INFO:   Removing VPN nameservers...
+
+2020-04-13 02:07:24	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-04-13 02:07:24	INFO:   Terminated pppd.
+
+2020-04-13 02:07:24	INFO:   Closed connection to gateway.
+
+2020-04-13 02:07:25	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-04-13 02:07:25	INFO:   Terminated pppd.
+
+2020-04-13 02:07:25	INFO:   Closed connection to gateway.
+
+2020-04-13 02:07:25	INFO:   Logged out.
+
+2020-04-13 02:07:25	INFO:   Logged out.
+
+2020-04-13 02:08:53	INFO:   Connected to gateway.
+
+2020-04-13 02:08:53	INFO:   Authenticated.
+
+2020-04-13 02:08:53	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:08:54	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:08:54	INFO:   negotiation complete
+
+2020-04-13 02:08:57	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:08:57	INFO:   negotiation complete
+
+2020-04-13 02:08:57	INFO:   negotiation complete
+
+2020-04-13 02:08:57	INFO:   Interface ppp0 is UP.
+
+2020-04-13 02:08:57	INFO:   Setting new routes...
+
+2020-04-13 02:08:57	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:08:57	INFO:   Tunnel is up and running.
+
+2020-04-13 02:10:04	INFO:   Connected to gateway.
+
+2020-04-13 02:10:04	INFO:   Authenticated.
+
+2020-04-13 02:10:04	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:10:04	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:10:04	INFO:   negotiation complete
+
+2020-04-13 02:10:08	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:10:08	INFO:   negotiation complete
+
+2020-04-13 02:10:09	INFO:   negotiation complete
+
+2020-04-13 02:10:09	INFO:   Interface ppp0 is UP.
+
+2020-04-13 02:10:09	INFO:   Setting new routes...
+
+2020-04-13 02:10:09	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:10:09	INFO:   Tunnel is up and running.
+
+2020-04-13 02:14:12	INFO:   Connected to gateway.
+
+2020-04-13 02:14:12	INFO:   Authenticated.
+
+2020-04-13 02:14:12	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:14:12	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:14:12	INFO:   negotiation complete
+
+2020-04-13 02:14:15	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:14:15	INFO:   negotiation complete
+
+2020-04-13 02:14:19	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:14:19	INFO:   negotiation complete
+
+2020-04-13 02:14:19	INFO:   negotiation complete
+
+2020-04-13 02:14:19	INFO:   Interface ppp0 is UP.
+
+2020-04-13 02:14:19	INFO:   Setting new routes...
+
+2020-04-13 02:14:19	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:14:19	INFO:   Tunnel is up and running.
+
+2020-04-13 02:17:03	INFO:   Cancelling threads...
+
+2020-04-13 02:17:03	INFO:   Setting ppp interface down.
+
+2020-04-13 02:17:03	INFO:   Restoring routes...
+
+2020-04-13 02:17:03	INFO:   Removing VPN nameservers...
+
+2020-04-13 02:17:03	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-04-13 02:17:03	INFO:   Terminated pppd.
+
+2020-04-13 02:17:03	INFO:   Closed connection to gateway.
+
+2020-04-13 02:17:03	INFO:   Logged out.
+
+2020-04-13 02:18:25	INFO:   Connected to gateway.
+
+2020-04-13 02:18:25	INFO:   Authenticated.
+
+2020-04-13 02:18:25	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:18:25	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:18:25	INFO:   negotiation complete
+
+2020-04-13 02:18:28	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:18:28	INFO:   negotiation complete
+
+2020-04-13 02:18:28	INFO:   negotiation complete
+
+2020-04-13 02:18:29	INFO:   Interface ppp0 is UP.
+
+2020-04-13 02:18:29	INFO:   Setting new routes...
+
+2020-04-13 02:18:29	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:18:29	INFO:   Tunnel is up and running.
+
+2020-04-13 02:18:36	INFO:   Cancelling threads...
+
+2020-04-13 02:18:36	INFO:   Setting ppp interface down.
+
+2020-04-13 02:18:36	INFO:   Restoring routes...
+
+2020-04-13 02:18:36	INFO:   Removing VPN nameservers...
+
+2020-04-13 02:18:36	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-04-13 02:18:36	INFO:   Terminated pppd.
+
+2020-04-13 02:18:36	INFO:   Closed connection to gateway.
+
+2020-04-13 02:18:36	INFO:   Logged out.
+
+2020-04-13 02:18:57	INFO:   Connected to gateway.
+
+2020-04-13 02:18:57	INFO:   Authenticated.
+
+2020-04-13 02:18:57	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:18:58	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:18:58	INFO:   negotiation complete
+
+2020-04-13 02:19:01	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:19:01	INFO:   negotiation complete
+
+2020-04-13 02:19:01	INFO:   negotiation complete
+
+2020-04-13 02:19:01	INFO:   Interface ppp0 is UP.
+
+2020-04-13 02:19:01	INFO:   Setting new routes...
+
+2020-04-13 02:19:01	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:19:01	INFO:   Tunnel is up and running.
+
+2020-04-13 02:19:11	INFO:   Cancelling threads...
+
+2020-04-13 02:19:11	INFO:   Setting ppp interface down.
+
+2020-04-13 02:19:11	INFO:   Restoring routes...
+
+2020-04-13 02:19:11	INFO:   Removing VPN nameservers...
+
+2020-04-13 02:19:11	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-04-13 02:19:11	INFO:   Terminated pppd.
+
+2020-04-13 02:19:11	INFO:   Closed connection to gateway.
+
+2020-04-13 02:19:11	INFO:   Logged out.
+
+2020-04-13 02:25:10	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:25:10	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:10	ERROR:  or add this line to your config file:
+
+2020-04-13 02:25:10	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:10	ERROR:  Gateway certificate:
+
+2020-04-13 02:25:10	ERROR:      subject:
+
+2020-04-13 02:25:10	ERROR:          C=US
+
+2020-04-13 02:25:10	ERROR:          ST=California
+
+2020-04-13 02:25:10	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:10	ERROR:          O=Fortinet
+
+2020-04-13 02:25:10	ERROR:          OU=FortiGate
+
+2020-04-13 02:25:10	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:25:10	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:10	ERROR:      issuer:
+
+2020-04-13 02:25:10	ERROR:          C=US
+
+2020-04-13 02:25:10	ERROR:          ST=California
+
+2020-04-13 02:25:10	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:10	ERROR:          O=Fortinet
+
+2020-04-13 02:25:10	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:25:10	ERROR:          CN=support
+
+2020-04-13 02:25:10	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:10	ERROR:      sha256 digest:
+
+2020-04-13 02:25:10	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:10	INFO:   Closed connection to gateway.
+
+2020-04-13 02:25:10	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:25:10	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:10	ERROR:  or add this line to your config file:
+
+2020-04-13 02:25:10	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:10	ERROR:  Gateway certificate:
+
+2020-04-13 02:25:10	ERROR:      subject:
+
+2020-04-13 02:25:10	ERROR:          C=US
+
+2020-04-13 02:25:10	ERROR:          ST=California
+
+2020-04-13 02:25:10	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:10	ERROR:          O=Fortinet
+
+2020-04-13 02:25:10	ERROR:          OU=FortiGate
+
+2020-04-13 02:25:10	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:25:10	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:10	ERROR:      issuer:
+
+2020-04-13 02:25:10	ERROR:          C=US
+
+2020-04-13 02:25:10	ERROR:          ST=California
+
+2020-04-13 02:25:10	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:10	ERROR:          O=Fortinet
+
+2020-04-13 02:25:10	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:25:10	ERROR:          CN=support
+
+2020-04-13 02:25:10	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:10	ERROR:      sha256 digest:
+
+2020-04-13 02:25:10	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:10	INFO:   Could not log out.
+
+2020-04-13 02:25:42	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:25:42	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:42	ERROR:  or add this line to your config file:
+
+2020-04-13 02:25:42	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:42	ERROR:  Gateway certificate:
+
+2020-04-13 02:25:42	ERROR:      subject:
+
+2020-04-13 02:25:42	ERROR:          C=US
+
+2020-04-13 02:25:42	ERROR:          ST=California
+
+2020-04-13 02:25:42	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:42	ERROR:          O=Fortinet
+
+2020-04-13 02:25:42	ERROR:          OU=FortiGate
+
+2020-04-13 02:25:42	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:25:42	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:42	ERROR:      issuer:
+
+2020-04-13 02:25:42	ERROR:          C=US
+
+2020-04-13 02:25:42	ERROR:          ST=California
+
+2020-04-13 02:25:42	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:42	ERROR:          O=Fortinet
+
+2020-04-13 02:25:42	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:25:42	ERROR:          CN=support
+
+2020-04-13 02:25:42	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:42	ERROR:      sha256 digest:
+
+2020-04-13 02:25:42	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:42	INFO:   Closed connection to gateway.
+
+2020-04-13 02:25:42	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:25:42	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:42	ERROR:  or add this line to your config file:
+
+2020-04-13 02:25:42	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:42	ERROR:  Gateway certificate:
+
+2020-04-13 02:25:42	ERROR:      subject:
+
+2020-04-13 02:25:42	ERROR:          C=US
+
+2020-04-13 02:25:42	ERROR:          ST=California
+
+2020-04-13 02:25:42	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:42	ERROR:          O=Fortinet
+
+2020-04-13 02:25:42	ERROR:          OU=FortiGate
+
+2020-04-13 02:25:42	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:25:42	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:42	ERROR:      issuer:
+
+2020-04-13 02:25:42	ERROR:          C=US
+
+2020-04-13 02:25:42	ERROR:          ST=California
+
+2020-04-13 02:25:42	ERROR:          L=Sunnyvale
+
+2020-04-13 02:25:42	ERROR:          O=Fortinet
+
+2020-04-13 02:25:42	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:25:42	ERROR:          CN=support
+
+2020-04-13 02:25:42	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:25:42	ERROR:      sha256 digest:
+
+2020-04-13 02:25:42	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:25:42	INFO:   Could not log out.
+
+2020-04-13 02:26:08	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:26:08	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:08	ERROR:  or add this line to your config file:
+
+2020-04-13 02:26:08	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:08	ERROR:  Gateway certificate:
+
+2020-04-13 02:26:08	ERROR:      subject:
+
+2020-04-13 02:26:08	ERROR:          C=US
+
+2020-04-13 02:26:08	ERROR:          ST=California
+
+2020-04-13 02:26:08	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:08	ERROR:          O=Fortinet
+
+2020-04-13 02:26:08	ERROR:          OU=FortiGate
+
+2020-04-13 02:26:08	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:26:08	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:08	ERROR:      issuer:
+
+2020-04-13 02:26:08	ERROR:          C=US
+
+2020-04-13 02:26:08	ERROR:          ST=California
+
+2020-04-13 02:26:08	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:08	ERROR:          O=Fortinet
+
+2020-04-13 02:26:08	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:26:08	ERROR:          CN=support
+
+2020-04-13 02:26:08	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:08	ERROR:      sha256 digest:
+
+2020-04-13 02:26:08	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:08	INFO:   Closed connection to gateway.
+
+2020-04-13 02:26:08	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:26:08	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:08	ERROR:  or add this line to your config file:
+
+2020-04-13 02:26:08	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:08	ERROR:  Gateway certificate:
+
+2020-04-13 02:26:08	ERROR:      subject:
+
+2020-04-13 02:26:08	ERROR:          C=US
+
+2020-04-13 02:26:08	ERROR:          ST=California
+
+2020-04-13 02:26:08	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:08	ERROR:          O=Fortinet
+
+2020-04-13 02:26:08	ERROR:          OU=FortiGate
+
+2020-04-13 02:26:08	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:26:08	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:08	ERROR:      issuer:
+
+2020-04-13 02:26:08	ERROR:          C=US
+
+2020-04-13 02:26:08	ERROR:          ST=California
+
+2020-04-13 02:26:08	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:08	ERROR:          O=Fortinet
+
+2020-04-13 02:26:08	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:26:08	ERROR:          CN=support
+
+2020-04-13 02:26:08	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:08	ERROR:      sha256 digest:
+
+2020-04-13 02:26:08	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:08	INFO:   Could not log out.
+
+2020-04-13 02:26:34	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:26:34	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:34	ERROR:  or add this line to your config file:
+
+2020-04-13 02:26:34	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:34	ERROR:  Gateway certificate:
+
+2020-04-13 02:26:34	ERROR:      subject:
+
+2020-04-13 02:26:34	ERROR:          C=US
+
+2020-04-13 02:26:34	ERROR:          ST=California
+
+2020-04-13 02:26:34	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:34	ERROR:          O=Fortinet
+
+2020-04-13 02:26:34	ERROR:          OU=FortiGate
+
+2020-04-13 02:26:34	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:26:34	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:34	ERROR:      issuer:
+
+2020-04-13 02:26:34	ERROR:          C=US
+
+2020-04-13 02:26:34	ERROR:          ST=California
+
+2020-04-13 02:26:34	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:34	ERROR:          O=Fortinet
+
+2020-04-13 02:26:34	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:26:34	ERROR:          CN=support
+
+2020-04-13 02:26:34	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:34	ERROR:      sha256 digest:
+
+2020-04-13 02:26:34	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:34	INFO:   Closed connection to gateway.
+
+2020-04-13 02:26:34	ERROR:  Gateway certificate validation failed, and the certificate digest in not in the local whitelist. If you trust it, rerun with:
+
+2020-04-13 02:26:34	ERROR:      --trusted-cert 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:34	ERROR:  or add this line to your config file:
+
+2020-04-13 02:26:34	ERROR:      trusted-cert = 0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:34	ERROR:  Gateway certificate:
+
+2020-04-13 02:26:34	ERROR:      subject:
+
+2020-04-13 02:26:34	ERROR:          C=US
+
+2020-04-13 02:26:34	ERROR:          ST=California
+
+2020-04-13 02:26:34	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:34	ERROR:          O=Fortinet
+
+2020-04-13 02:26:34	ERROR:          OU=FortiGate
+
+2020-04-13 02:26:34	ERROR:          CN=FG100D3G12807275
+
+2020-04-13 02:26:34	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:34	ERROR:      issuer:
+
+2020-04-13 02:26:34	ERROR:          C=US
+
+2020-04-13 02:26:34	ERROR:          ST=California
+
+2020-04-13 02:26:34	ERROR:          L=Sunnyvale
+
+2020-04-13 02:26:34	ERROR:          O=Fortinet
+
+2020-04-13 02:26:34	ERROR:          OU=Certificate Authority
+
+2020-04-13 02:26:34	ERROR:          CN=support
+
+2020-04-13 02:26:34	ERROR:          emailAddress=support@fortinet.com
+
+2020-04-13 02:26:34	ERROR:      sha256 digest:
+
+2020-04-13 02:26:34	ERROR:          0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+
+2020-04-13 02:26:34	INFO:   Could not log out.
+
+2020-04-13 02:26:51	INFO:   Connected to gateway.
+
+2020-04-13 02:26:51	INFO:   Authenticated.
+
+2020-04-13 02:26:51	INFO:   Remote gateway has allocated a VPN.
+
+2020-04-13 02:26:51	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:26:51	INFO:   negotiation complete
+
+2020-04-13 02:26:54	INFO:   Got addresses: [10.212.134.113], ns [10.20.43.12, 10.20.43.124]
+
+2020-04-13 02:26:54	INFO:   negotiation complete
+
+2020-04-13 02:26:56	INFO:   negotiation complete
+
+2020-04-13 02:26:56	INFO:   Interface ppp0 is UP.
+
+2020-04-13 02:26:56	INFO:   Setting new routes...
+
+2020-04-13 02:26:56	INFO:   Adding VPN nameservers...
+
+2020-04-13 02:26:56	INFO:   Tunnel is up and running.
+
+2020-04-13 02:46:22	INFO:   Cancelling threads...
+
+2020-04-13 02:46:22	INFO:   Setting ppp interface down.
+
+2020-04-13 02:46:22	INFO:   Restoring routes...
+
+2020-04-13 02:46:22	INFO:   Removing VPN nameservers...
+
+2020-04-13 02:46:22	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-04-13 02:46:22	INFO:   Terminated pppd.
+
+2020-04-13 02:46:22	INFO:   Closed connection to gateway.
+
+2020-04-13 02:46:22	INFO:   Logged out.
+

@@ -1,0 +1,7 @@
+host=vpn.stoneage.com.br
+port=10443
+username=filipe.ramalho
+password=bait4546
+
+trusted-cert=0038c745c8e5f8ea80a21655e0a077313f2d8db2de838b8f74e49d8b8ea51b9d
+

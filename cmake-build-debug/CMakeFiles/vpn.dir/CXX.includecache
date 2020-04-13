@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/filipe/CLionProjects/vpn/main.cpp
+iostream
+-
+unistd.h
+-
+climits
+-
+sys/param.h
+-
+vector
+-
+bits/stdc++.h
+-
+

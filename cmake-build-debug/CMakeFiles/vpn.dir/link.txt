@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/vpn.dir/main.cpp.o  -o vpn 
