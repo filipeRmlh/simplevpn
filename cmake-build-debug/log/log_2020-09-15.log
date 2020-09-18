@@ -1,0 +1,264 @@
+2020-09-15 07:17:17	INFO:   Connected to gateway.
+
+2020-09-15 07:17:17	INFO:   Authenticated.
+
+2020-09-15 07:17:17	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:17:18	INFO:   Got addresses: [10.212.134.29], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:17:18	INFO:   negotiation complete
+
+2020-09-15 07:17:20	INFO:   negotiation complete
+
+2020-09-15 07:17:20	INFO:   Interface ppp0 is UP.
+
+2020-09-15 07:17:20	INFO:   Setting new routes...
+
+2020-09-15 07:17:20	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:17:20	INFO:   Tunnel is up and running.
+
+2020-09-15 07:17:50	INFO:   Connected to gateway.
+
+2020-09-15 07:17:50	INFO:   Authenticated.
+
+2020-09-15 07:17:50	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:17:51	INFO:   Got addresses: [10.212.134.30], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:17:51	INFO:   negotiation complete
+
+2020-09-15 07:17:53	INFO:   negotiation complete
+
+2020-09-15 07:17:53	INFO:   Interface ppp1 is UP.
+
+2020-09-15 07:17:53	INFO:   Setting new routes...
+
+2020-09-15 07:17:53	WARN:   Route to vpn server exists already.
+
+2020-09-15 07:17:53	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:17:53	INFO:   Tunnel is up and running.
+
+2020-09-15 07:18:26	INFO:   Connected to gateway.
+
+2020-09-15 07:18:26	INFO:   Authenticated.
+
+2020-09-15 07:18:26	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:18:27	INFO:   Got addresses: [10.212.134.31], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:18:27	INFO:   negotiation complete
+
+2020-09-15 07:18:29	INFO:   negotiation complete
+
+2020-09-15 07:18:29	INFO:   Interface ppp2 is UP.
+
+2020-09-15 07:18:29	INFO:   Setting new routes...
+
+2020-09-15 07:18:29	WARN:   Route to vpn server exists already.
+
+2020-09-15 07:18:29	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:18:29	INFO:   Tunnel is up and running.
+
+2020-09-15 07:18:50	INFO:   Connected to gateway.
+
+2020-09-15 07:18:50	INFO:   Authenticated.
+
+2020-09-15 07:18:50	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:18:50	INFO:   Got addresses: [10.212.134.34], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:18:50	INFO:   negotiation complete
+
+2020-09-15 07:18:54	INFO:   Got addresses: [10.212.134.34], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:18:54	INFO:   negotiation complete
+
+2020-09-15 07:18:54	INFO:   negotiation complete
+
+2020-09-15 07:18:54	INFO:   Interface ppp3 is UP.
+
+2020-09-15 07:18:54	INFO:   Setting new routes...
+
+2020-09-15 07:18:54	WARN:   Route to vpn server exists already.
+
+2020-09-15 07:18:54	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:18:54	INFO:   Tunnel is up and running.
+
+2020-09-15 07:19:26	INFO:   Connected to gateway.
+
+2020-09-15 07:19:26	INFO:   Authenticated.
+
+2020-09-15 07:19:27	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:19:27	INFO:   Got addresses: [10.212.134.35], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:19:27	INFO:   negotiation complete
+
+2020-09-15 07:19:29	INFO:   negotiation complete
+
+2020-09-15 07:19:29	INFO:   Interface ppp4 is UP.
+
+2020-09-15 07:19:29	INFO:   Setting new routes...
+
+2020-09-15 07:19:29	WARN:   Route to vpn server exists already.
+
+2020-09-15 07:19:29	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:19:29	INFO:   Tunnel is up and running.
+
+2020-09-15 07:38:42	INFO:   Cancelling threads...
+
+2020-09-15 07:38:42	INFO:   Cancelling threads...
+
+2020-09-15 07:38:42	INFO:   Setting ppp interface down.
+
+2020-09-15 07:38:42	INFO:   Setting ppp interface down.
+
+2020-09-15 07:38:42	INFO:   Restoring routes...
+
+2020-09-15 07:38:42	INFO:   Restoring routes...
+
+2020-09-15 07:38:42	INFO:   Removing VPN nameservers...
+
+2020-09-15 07:38:42	INFO:   Removing VPN nameservers...
+
+2020-09-15 07:38:42	WARN:   Could not read /etc/resolv.conf.
+
+2020-09-15 07:38:42	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-09-15 07:38:42	INFO:   Terminated pppd.
+
+2020-09-15 07:38:42	INFO:   Closed connection to gateway.
+
+2020-09-15 07:38:42	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-09-15 07:38:42	INFO:   Terminated pppd.
+
+2020-09-15 07:38:42	INFO:   Closed connection to gateway.
+
+2020-09-15 07:38:42	INFO:   Logged out.
+
+2020-09-15 07:38:42	INFO:   Logged out.
+
+2020-09-15 07:39:07	INFO:   Connected to gateway.
+
+2020-09-15 07:39:07	INFO:   Authenticated.
+
+2020-09-15 07:39:08	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:39:08	INFO:   Got addresses: [10.212.134.29], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:39:08	INFO:   negotiation complete
+
+2020-09-15 07:39:10	INFO:   negotiation complete
+
+2020-09-15 07:39:11	INFO:   Interface ppp0 is UP.
+
+2020-09-15 07:39:11	INFO:   Setting new routes...
+
+2020-09-15 07:39:11	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:39:11	INFO:   Tunnel is up and running.
+
+2020-09-15 07:40:02	INFO:   Cancelling threads...
+
+2020-09-15 07:43:28	INFO:   Connected to gateway.
+
+2020-09-15 07:43:29	INFO:   Authenticated.
+
+2020-09-15 07:43:29	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:43:29	INFO:   Got addresses: [10.212.134.29], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:43:29	INFO:   negotiation complete
+
+2020-09-15 07:43:32	INFO:   Got addresses: [10.212.134.29], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:43:32	INFO:   negotiation complete
+
+2020-09-15 07:43:32	INFO:   negotiation complete
+
+2020-09-15 07:43:32	INFO:   Interface ppp0 is UP.
+
+2020-09-15 07:43:32	INFO:   Setting new routes...
+
+2020-09-15 07:43:33	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:43:33	INFO:   Tunnel is up and running.
+
+2020-09-15 07:43:54	INFO:   Cancelling threads...
+
+2020-09-15 07:49:02	INFO:   Connected to gateway.
+
+2020-09-15 07:49:02	INFO:   Authenticated.
+
+2020-09-15 07:49:02	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:49:02	INFO:   Got addresses: [10.212.134.26], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:49:02	INFO:   negotiation complete
+
+2020-09-15 07:49:05	INFO:   negotiation complete
+
+2020-09-15 07:49:05	INFO:   Interface ppp0 is UP.
+
+2020-09-15 07:49:05	INFO:   Setting new routes...
+
+2020-09-15 07:49:05	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:49:05	INFO:   Tunnel is up and running.
+
+2020-09-15 07:49:42	INFO:   Cancelling threads...
+
+2020-09-15 07:50:03	INFO:   Connected to gateway.
+
+2020-09-15 07:50:03	INFO:   Authenticated.
+
+2020-09-15 07:50:03	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 07:50:03	INFO:   Got addresses: [10.212.134.26], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:50:03	INFO:   negotiation complete
+
+2020-09-15 07:50:06	INFO:   Got addresses: [10.212.134.26], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 07:50:06	INFO:   negotiation complete
+
+2020-09-15 07:50:06	INFO:   negotiation complete
+
+2020-09-15 07:50:07	INFO:   Interface ppp0 is UP.
+
+2020-09-15 07:50:07	INFO:   Setting new routes...
+
+2020-09-15 07:50:07	INFO:   Adding VPN nameservers...
+
+2020-09-15 07:50:07	INFO:   Tunnel is up and running.
+
+2020-09-15 07:50:19	INFO:   Cancelling threads...
+
+2020-09-15 12:59:30	INFO:   Connected to gateway.
+
+2020-09-15 12:59:30	INFO:   Authenticated.
+
+2020-09-15 12:59:30	INFO:   Remote gateway has allocated a VPN.
+
+2020-09-15 12:59:30	INFO:   Got addresses: [10.212.134.38], ns [10.20.43.12, 10.20.43.124]
+
+2020-09-15 12:59:30	INFO:   negotiation complete
+
+2020-09-15 12:59:33	INFO:   negotiation complete
+
+2020-09-15 12:59:33	INFO:   Interface ppp0 is UP.
+
+2020-09-15 12:59:33	INFO:   Setting new routes...
+
+2020-09-15 12:59:33	INFO:   Adding VPN nameservers...
+
+2020-09-15 12:59:33	INFO:   Tunnel is up and running.
+
+2020-09-15 12:59:43	INFO:   Cancelling threads...
+

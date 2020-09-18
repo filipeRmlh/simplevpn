@@ -1,0 +1,48 @@
+2020-08-28 10:12:09	INFO:   Connected to gateway.
+
+2020-08-28 10:12:09	INFO:   Authenticated.
+
+2020-08-28 10:12:09	INFO:   Remote gateway has allocated a VPN.
+
+2020-08-28 10:12:10	INFO:   Got addresses: [10.212.134.202], ns [10.20.43.12, 10.20.43.124]
+
+2020-08-28 10:12:10	INFO:   negotiation complete
+
+2020-08-28 10:12:13	INFO:   Got addresses: [10.212.134.202], ns [10.20.43.12, 10.20.43.124]
+
+2020-08-28 10:12:13	INFO:   negotiation complete
+
+2020-08-28 10:12:13	INFO:   negotiation complete
+
+2020-08-28 10:12:13	INFO:   Interface ppp0 is UP.
+
+2020-08-28 10:12:13	INFO:   Setting new routes...
+
+2020-08-28 10:12:13	INFO:   Adding VPN nameservers...
+
+2020-08-28 10:12:13	INFO:   Tunnel is up and running.
+
+2020-08-28 10:16:45	INFO:   Connected to gateway.
+
+2020-08-28 10:16:45	INFO:   Authenticated.
+
+2020-08-28 10:16:45	INFO:   Remote gateway has allocated a VPN.
+
+2020-08-28 10:16:46	INFO:   Got addresses: [10.212.134.202], ns [10.20.43.12, 10.20.43.124]
+
+2020-08-28 10:16:46	INFO:   negotiation complete
+
+2020-08-28 10:16:49	INFO:   Got addresses: [10.212.134.202], ns [10.20.43.12, 10.20.43.124]
+
+2020-08-28 10:16:49	INFO:   negotiation complete
+
+2020-08-28 10:16:49	INFO:   negotiation complete
+
+2020-08-28 10:16:49	INFO:   Interface ppp0 is UP.
+
+2020-08-28 10:16:49	INFO:   Setting new routes...
+
+2020-08-28 10:16:49	INFO:   Adding VPN nameservers...
+
+2020-08-28 10:16:49	INFO:   Tunnel is up and running.
+

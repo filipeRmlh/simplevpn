@@ -1,3 +1,3 @@
-/home/filipe/CLionProjects/vpn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/filipe/CLionProjects/vpn/cmake-build-debug/CMakeFiles/vpn.dir
-/home/filipe/CLionProjects/vpn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/filipe/Projetos/Pessoal/simplevpn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/filipe/Projetos/Pessoal/simplevpn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/filipe/Projetos/Pessoal/simplevpn/cmake-build-debug/CMakeFiles/vpn.dir

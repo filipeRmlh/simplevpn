@@ -1,0 +1,36 @@
+2020-05-01 18:27:53	INFO:   Connected to gateway.
+
+2020-05-01 18:27:53	INFO:   Authenticated.
+
+2020-05-01 18:27:53	INFO:   Remote gateway has allocated a VPN.
+
+2020-05-01 18:27:53	INFO:   Got addresses: [10.212.134.116], ns [10.20.43.12, 10.20.43.124]
+
+2020-05-01 18:27:53	INFO:   negotiation complete
+
+2020-05-01 18:27:55	INFO:   negotiation complete
+
+2020-05-01 18:27:55	INFO:   Interface ppp0 is UP.
+
+2020-05-01 18:27:55	INFO:   Setting new routes...
+
+2020-05-01 18:27:55	INFO:   Adding VPN nameservers...
+
+2020-05-01 18:27:55	INFO:   Tunnel is up and running.
+
+2020-05-01 18:28:38	INFO:   Cancelling threads...
+
+2020-05-01 18:28:38	INFO:   Setting ppp interface down.
+
+2020-05-01 18:28:38	INFO:   Restoring routes...
+
+2020-05-01 18:28:38	INFO:   Removing VPN nameservers...
+
+2020-05-01 18:28:38	INFO:   pppd: The link was terminated by the modem hanging up.
+
+2020-05-01 18:28:38	INFO:   Terminated pppd.
+
+2020-05-01 18:28:38	INFO:   Closed connection to gateway.
+
+2020-05-01 18:28:38	INFO:   Logged out.
+

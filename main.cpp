@@ -43,40 +43,85 @@ inline void Logger( const string& logMsg ){
     ofs.close();
 }
 
+void writeToParent(const int* fd, const string& msg){
+    close(fd[0]);
+    string::size_type size = msg.size();
+    write(fd[1], &size, sizeof(size));
+    write(fd[1], msg.c_str(), msg.size());
+}
 
-string executeConnection(const string& path){
+string readChild(const int* fd, int timeoutSecs){
+
+    fd_set set;
+    int filedesc = fd[0];
+    struct timeval timeout{};
+    int rv;
+    FD_ZERO(&set); /* clear the set */
+    FD_SET(filedesc, &set); /* add our file descriptor to the set */
+
+    timeout.tv_sec = timeoutSecs;
+    timeout.tv_usec = 0;
+
+    rv = select(filedesc + 1, &set, NULL, NULL, &timeout);
+    if(rv == -1) {
+        return "error";
+    } else if(rv == 0) {
+        return "timeout";
+    } else {
+        close(fd[1]);
+        string::size_type size;
+        read(filedesc, &size, sizeof(size));
+        string str(size, ' ');
+        read(filedesc, &str[0], size);
+        return str;
+    }
+}
+
+
+void executeConnection(const string& path, const int* fd){
     string trustedConfigString = "--trusted-cert ";
     string trustedCert;
     bool hasError= false;
+    bool hasSuccess = false;
     int trustedConfigStringSize = trustedConfigString.size();
     char line[1000];
 
-    string command = authorizer+"openfortivpn --config "+path;
+    string command = authorizer+"openfortivpn -c "+path;
 
     FILE * fs = popen(command.data(), "r");
 
+    bool showSuccessMessage = true;
+
     while(fgets(line, sizeof(line), fs) != nullptr) {
         string decodedLine = line;
-        size_t pos = decodedLine.find(trustedConfigString);
+        size_t posTrustedConfig = decodedLine.find(trustedConfigString);
         hasError = hasError || ((int) decodedLine.find("ERROR")) != -1;
+        hasSuccess = hasSuccess || decodedLine.find("INFO:   Tunnel is up and running.");
         Logger(decodedLine);
-        if(pos != -1){
-            trustedCert = "TRUSTED_CERT|"+decodedLine.substr(pos+trustedConfigStringSize);
+        if(posTrustedConfig != -1){
+            trustedCert = "TRUSTED_CERT|"+decodedLine.substr(posTrustedConfig+trustedConfigStringSize);
         }
-    }
-    pclose(fs);
-
-    if(!trustedCert.empty()){
-        return trustedCert;
-    }
-
-    if(hasError){
-        return "CONNECTION_ERROR";
+       
+        if(hasSuccess) {
+            if(showSuccessMessage) {
+                showSuccessMessage = false;
+                system("notify-send Vpn \"Process successfully started!\"");
+            }
+            writeToParent(fd,"CONNECTION_SUCCESS");
+        }
     }
 
     system("notify-send Vpn \"Process ended!\"");
 
-    return "ENDED";
+    pclose(fs);
+
+    if(!trustedCert.empty()){
+        writeToParent(fd,trustedCert);
+    }
+
+    if(hasError){
+        writeToParent(fd,"CONNECTION_ERROR");
+    }
 
 }
 
@@ -122,40 +167,7 @@ int addConfig(const string& configName){
     return 0;
 }
 
-void writeToParent(const int* fd, const string& msg){
-    close(fd[0]);
 
-    string::size_type size = msg.size();
-    write(fd[1], &size, sizeof(size));
-    write(fd[1], msg.c_str(), msg.size());
-}
-
-string readChild(const int* fd, int timeoutSecs){
-
-    fd_set set;
-    int filedesc = fd[0];
-    struct timeval timeout{};
-    int rv;
-    FD_ZERO(&set); /* clear the set */
-    FD_SET(filedesc, &set); /* add our file descriptor to the set */
-
-    timeout.tv_sec = timeoutSecs;
-    timeout.tv_usec = 0;
-
-    rv = select(filedesc + 1, &set, NULL, NULL, &timeout);
-    if(rv == -1) {
-        return "error";
-    } else if(rv == 0) {
-        return "timeout";
-    } else {
-        close(fd[1]);
-        string::size_type size;
-        read(filedesc, &size, sizeof(size));
-        string str(size, ' ');
-        read(filedesc, &str[0], size);
-        return str;
-    }
-}
 
 vector<string> splitKey(string str,string search){
     vector<string> ret;
@@ -168,6 +180,7 @@ vector<string> splitKey(string str,string search){
     }
     return ret;
 }
+
 int numTent=0;
 int connect(const string& config){
 
@@ -176,17 +189,17 @@ int connect(const string& config){
 
     pid_t pid = fork();
     if (pid == 0) {
-        string ret = executeConnection(confdir+"/"+config);
-        writeToParent(fd,ret);
+        executeConnection(confdir+"/"+config, fd);
         return 0;
     } else {
         cout << "Wait Until you can close the terminal (up to 30 sec)" << endl;
-        string childStatus = readChild(fd, 30);
+        string childStatus = readChild(fd, 60);
+
         if(childStatus=="timeout"){
-            cout << "Process Started" << endl;
-            cout << "You can close the terminal now" << endl;
-            return 0;
-        }else if(childStatus=="error"){
+            cout << "Timeout occurred." << endl;
+            cout << "Try again!" << endl;
+            return 5;
+        } else if(childStatus=="error"){
             cout << "A error occurred trying to initiate process;" << endl;
             if(!kill(pid, SIGKILL)){
                 cout << "Failed to end child process" << endl;
@@ -201,6 +214,7 @@ int connect(const string& config){
                     cout << result[1] <<endl;
                     string answer;
                     cin >> answer;
+                    
                     if(answer=="S") {
                         addTrustCert(config, result[1]);
                         numTent++;
@@ -216,6 +230,10 @@ int connect(const string& config){
             }else if(result[0] == "CONNECTION_ERROR"){
                 cout << "A error occurred trying to connect, see logs" << endl;
                 return 3;
+            } else if(result[0] == "CONNECTION_SUCCESS"){
+                cout << "Process Started" << endl;
+                cout << "You can close the terminal now" << endl;
+                return 0;
             }
 
         }
@@ -243,16 +261,16 @@ int main(int argc, char * argv[]) {
     }
 
     if(argc > 1){
-        if(strcmp(argv[1],"close") == 0){
+        if(strcmp(argv[1],"closeall") == 0){
             return closeConnection();
         }else if(strcmp(argv[1],"config") == 0){
             return addConfig(argv[2]);
         }else if (strcmp(argv[1],"connect")==0){
             return connect(argv[2]);
         }
-    }else{
-        cout << "usage: "+((string) argv[0])+" (close | config <name> | connect <name>)"<< endl;
     }
 
-    return 0;
+    cout << "usage: "+((string) argv[0])+" (closeall | config <name> | connect <name>)"<< endl;
+
+    return 1;
 }

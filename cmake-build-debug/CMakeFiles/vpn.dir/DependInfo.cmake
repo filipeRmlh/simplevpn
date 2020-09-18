@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/filipe/CLionProjects/vpn/main.cpp" "/home/filipe/CLionProjects/vpn/cmake-build-debug/CMakeFiles/vpn.dir/main.cpp.o"
+  "/home/filipe/Projetos/Pessoal/simplevpn/main.cpp" "/home/filipe/Projetos/Pessoal/simplevpn/cmake-build-debug/CMakeFiles/vpn.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
